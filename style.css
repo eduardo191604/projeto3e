@@ -2,15 +2,14 @@
 
 :root {
     -cor-de-fundo-de-cima:;#444444 
-    --cor-de-fundo:;#0A0A0A
+    --cor-de-fundo:;#000000
     --cor-texto-de-cima:;#EACACA
     --cor-texto-debaixo:;#0A0A0A
     --cor-de-baixo-do-relogio:;#FF0000
     --cor-de-numero-do-relogio:;#FFFFFF
 }
 body{
-       background:linear-gradient()
-}
+       background:linear-gradient(to bottom, #444444,#000000,#EACACA);
 .titulo-principal{
     color:#0A0A0A
 }
