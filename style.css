@@ -9,7 +9,7 @@
     --cor-de-numero-do-relogio:;#FFFFFF
 }
 body{
-       background:linear-gradient(to bottom, #EACACA,#444444,#000000,);
+       background:linear-gradient(to top, #444444,#000000,#EACACA);
 margin: 0;
 height: 100vh;
 }
