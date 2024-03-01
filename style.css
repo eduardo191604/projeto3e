@@ -3,8 +3,17 @@
 :root {
     -cor-de-fundo-de-cima:;#444444 
     --cor-de-fundo:;#0A0A0A
-    --cor-textode:;cima:;#EACACA
+    --cor-texto-de-cima:;#EACACA
     --cor-texto-debaixo:;#0A0A0A
-    --cor-de- baixo-do-relogio:;#FF0000
-    --cor-de numero-do-relogio:;#FFFFFF
+    --cor-de-baixo-do-relogio:;#FF0000
+    --cor-de-numero-do-relogio:;#FFFFFF
 }
+body{
+       background:linear-gradient()
+}
+.titulo-principal{
+    color:#0A0A0A
+}
+   .botao{
+    color
+   }
