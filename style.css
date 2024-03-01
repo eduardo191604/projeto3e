@@ -10,6 +10,10 @@
 }
 body{
        background:linear-gradient(to bottom, #444444,#000000,#EACACA);
+margin: 0;
+height: 100vh;
+}
+
 .titulo-principal{
     color:#0A0A0A
 }
