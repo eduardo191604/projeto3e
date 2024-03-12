@@ -45,7 +45,7 @@ height: 100vh;
 .botao{
     font-family: 'chakra petch, sans serif';
     backgroun-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--preta);
     display: flex
     justify-content: center;
     padding: 1em;
