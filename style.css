@@ -19,4 +19,19 @@ height: 100vh;
 }
    .botao{
     color
-   }
+}
+
+    body{
+    background-color: var(--cor-e-fundo);
+    color:var(--branco);
+    fonte-family:'Chakra Petch',san-serif;
+}
+.conteudo-principal{
+    diplay:flex
+    frex-direction:column;
+    justify-content:center;
+    align: itmes 1200px;
+    width:100%;
+    margin:0 auto;
+}
+
