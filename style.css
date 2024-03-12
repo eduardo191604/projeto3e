@@ -32,6 +32,22 @@ height: 100vh;
     justify-content:center;
     align: itmes 1200px;
     width:100%;
-    margin:0 auto;
+    margin: 0 auto;
+}
+.titulo-principal span{
+    text-align: let;
+    width:100%;
+    font-size: 32px;
+}
+.titulo-principal pan{
+    color: var(--verde-limao);
+}
+.botao{
+    font-family: 'chakra petch, sans serif';
+    backgroun-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex
+    justify-content: center;
+    padding: 1em;
 }
 
