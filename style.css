@@ -4,10 +4,10 @@
 :root {
     --cor-de-fundo:#660212af;
     --preto:#000000;
-    --vermelho:#FF0000;
+    --vermelho:#337e7a;
     --roxo:#3A375E;
     --verde-limao:#0000002d;
-    --cor-cbc-n-sel:rgba(0, 0, 0, 0.5);
+    --cor-cbc-n-sel:rgb(5, 5, 5);
     --cor-cbc-sel:#000000;
 } 
 
