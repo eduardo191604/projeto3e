@@ -1,75 +1,76 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    -cor-de-fundo-de-cima:;#444444 
-    --cor-de-fundo:;#000000
-    --cor-texto-de-cima:;#EACACA
-    --cor-texto-debaixo:;#0A0A0A
-    --cor-de-baixo-do-relogio:;#FF0000
-    --cor-de-numero-do-relogio:;#FFFFFF
-}
+    --cor-de-fundo:#386738;
+    --preto:#000000;
+    --vermelho:#FF0000;
+    --roxo:#3A375E;
+    --verde-limao:#6FFF57;
+    --cor-cbc-n-sel:rgba(82, 162, 81, 0.5);
+    --cor-cbc-sel:#52A151;
+} 
+
 body{
-       background:linear-gradient(to top, #444444,#000000,#EACACA);
-margin: 0;
-height: 100vh;
+    background-color: var(--cor-de-fundo);
+    color: #FFFF;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .titulo-principal{
-    color:#0A0A0A
-}
-   .botao{
-    color
-}
-
-    body{
-    background-color: var(--cor-e-fundo);
-    color:var(--branco);
-    fonte-family:'Chakra Petch',san-serif;
-}
-.conteudo-principal{
-    diplay:flex
-    frex-direction:column;
-    justify-content:center;
-    align: itmes 1200px;
-    width:100%;
-    margin: 0 auto;
-}
-.titulo-principal span{
-    text-align: let;
-    width:100%;
+    text-align: left;
+    width: 100%;
     font-size: 32px;
 }
-.titulo-principal pan{
+
+.titulo-principal span{
     color: var(--verde-limao);
 }
+
 .botao{
-    font-family: 'chakra petch, sans serif';
-    backgroun-color: var(--botao-inativo);
-    color: var(--preta);
-    display: flex
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--cor-cbc-n-sel);
+    color: #FFFF;
+    display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
-    align-item: center;
-    width:100%;
-    border-bottom:4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(botao-ativo);
-    border-top:nome;
-}
-.botao:firt-child{
-    border-radiu: 40px 40px 0 0;
-}
-.botoes{
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--cor-cbc-sel);
+    border-left: 2px solid var(--cor-cbc-sel);
+    border-right: 2px solid var(--cor-cbc-sel);
+    border-top: none;
+    }
+   
+.botao:first-child{
+    border-radius: 40px 40px 0 0
+    }
+
+    .botoes{
     display: block;
-}
-(media screen and (min-width:768px){
+    }
+
+@media screen and (min-width: 768px) {
     .botoes{
     display: flex;
-}
+    }
+
 .botao:first-child{
-    border-radiu: 40px 0 0 0;
-}
+    border-radius: 40px 0 0 0
+    }
+    
 .botao:last-child{
-    borer-radius: 40px 0 0;
+    border-radius: 0 40px 0 0;
+    }
 }
