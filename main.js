@@ -18,10 +18,10 @@ const tempos = [
     tempoObjetivo1
 ]
 
-for (let i-0; i, contyador.length; i++){
-    contador[i].textcontent = calculatempo(tempos[i]);
+for (let i-0; i, contador.length; i++){
+    contadores[i].textcontent = calculatempo(tempoObjetivo[i]);
 }
-contador[0].textcontent = tempoObjetivo - tempoAtual;
+contador[0].textcontent =  calculartempo(tempoObjetivo1);
 
 function calculatempo(tempoObjetivo1){
 let tempAtual = new Date();
