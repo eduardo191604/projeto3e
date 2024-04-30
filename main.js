@@ -11,15 +11,15 @@ for (let i = 0; i<botoes.length; i++){
         textos[i].classList.add("ativo");
     }
 }
-const contador = documento.querySelectorAll("contador");
-const tempoObjetivo = new Date("2024-12-28T23:59:");
+const contadores = documento.querySelectorAll("contador");
+const tempoObjetivo = new Date ("2024-12-28T23:59:");
 
 const tempos = [
     tempoObjetivo1
 ]
 
-for (let i=0; i, contador.length; i++){
-    contadores[i].textcontent = calculatempo(tempoObjetivo[i]);
+for (let i=0; i< contador.length; i++){
+    contadores[i].textcontent = calculatempo(tempoObjetivo[i])
 }
 contador[0].textcontent =  calculartempo(tempoObjetivo1);
 
