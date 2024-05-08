@@ -17,7 +17,7 @@ body{
     font-family: 'Chakra Petch', sans-serif;
 }
 
-.conteudo-principal {
+.conteudo-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@ body{
 
 .botao{
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(--cor-cbc-n-sel);
+    background-color: var(--botao-ativo);
     color: #FFFF;
     display: flex;
     justify-content: center;
@@ -47,9 +47,9 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-cbc-sel);
-    border-left: 2px solid var(--cor-cbc-sel);
-    border-right: 2px solid var(--cor-cbc-sel);
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
     }
    
