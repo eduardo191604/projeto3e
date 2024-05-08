@@ -1,5 +1,5 @@
 const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".abas-conteudo");
+const textos = document.querySelectorAll(".aba-conteudo");
 
 for (let i = 0; i<botoes.length; i++){
     botoes [i].onclick = function(){
@@ -11,23 +11,26 @@ for (let i = 0; i<botoes.length; i++){
         textos[i].classList.add("ativo");
     }
 }
-const contadores = documento.querySelectorAll("contador");
-const tempoObjetivo = new Date ("2024-12-28T23:59:59");
+const contadores = documento.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2024-12-28T23:59:59");
+const tempoObjetivo2 = new Date("2024-12-28T23:59:59");
+const tempoObjetivo3 = new Date("2024-12-28T23:59:59");
+const tempoObjetivo4 = new Date("2024-12-28T23:59:59");
 
 const tempos = [
-    tempoObjetivo1
+    tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4
 ]
 
-for (let i=0; i< contador.length; i++){
-    contadores[i].textcontent = calculatempo(tempoObjetivo[i])
+for (let i=0; i< contadores.length; i++){
+    contadores[i].textcontent = calculatempo(tempos[i])
 }
-contador[0].textcontent =  calculartempo(tempoObjetivo1);
+contador[0].textcontent =  calculatempo(tempoObjetivo1);
 
 function calculatempo(tempoObjetivo1){
-let tempAtual = new Date();
+let tempoAtual = new Date();
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 let segundos = Math.floor(tempoFinal / 1000);
-let minutos = Math.floor(sedundos / 60);
+let minutos = Math.floor(segundos / 60);
 let horas = Math.floor(minutos / 60);
 let dias = Math.floor(horas / 24);
 
