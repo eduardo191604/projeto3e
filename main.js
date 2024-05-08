@@ -12,7 +12,7 @@ for (let i = 0; i<botoes.length; i++){
     }
 }
 const contadores = documento.querySelectorAll("contador");
-const tempoObjetivo = new Date ("2024-12-28T23:59:");
+const tempoObjetivo = new Date ("2024-12-28T23:59:59");
 
 const tempos = [
     tempoObjetivo1
